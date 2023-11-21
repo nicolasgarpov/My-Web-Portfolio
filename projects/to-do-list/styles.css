@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0;
+  background: url(imagenes/pizarra.jpg) no-repeat center center/ cover;
+}
+
+.contenedor {
+  width: 700px;
+  min-height: 500px;
+  padding: 40px;
+  border: 5px solid rgb(3, 58, 13);
+  border-radius: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+input {
+  width: 80%;
+  height: 50px;
+  font-size: 25px;
+  margin: 20px;
+  padding: 10px;
+  border: 4px solid  rgb(3, 58, 13);
+  border-radius: 10px;
+}
+
+button {
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(109, 68, 15);
+  font-size: 22px;
+  border-radius:  20px;
+  border: 2px solid rgb(173, 123, 56);
+  cursor: pointer;
+  user-select: none;
+}
+
+button:hover {
+  background-color: rgb(84, 56, 13);
+}
+
+#lista-de-tareas {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.tarea {
+  width: 100%;
+  min-height: 70px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(3, 58, 13);
+  border: 2px solid  rgb(3, 58, 13);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.tarea.completada {
+  text-decoration: line-through;
+  background-color:black;
+  border: none;
+}
+
+.tarea p {
+  max-width: 350px;
+}
+
+i {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icono-completar {
+  color: rgb(37, 211, 63);
+}
+
+.icono-eliminar {
+  color: white;
+}
+
+.icono-completar:hover,
+.icono-eliminar:hover {
+  background-color: rgba(255, 255, 255, 0.523 );
+}
+

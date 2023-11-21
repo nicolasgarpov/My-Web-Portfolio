@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:  rgb(23, 41, 56);
+}
+
+.contenedor-principal {
+  margin: auto;
+  width: 70vw;
+  max-width: 600px;
+  min-height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.color {
+  font-size: 3vw;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 6px;
+  margin: 10px;
+  display: flex;
+}
+
+label, p {
+  margin: 20px;
+}
